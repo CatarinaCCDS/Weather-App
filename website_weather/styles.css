@@ -35,7 +35,6 @@ button[type="submit"]:hover{
 }
 .card{
     display: none;
-    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
     border-radius: 10px;
     padding: 50px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
@@ -43,6 +42,7 @@ button[type="submit"]:hover{
     flex-direction: column;
     align-items: center;
 }
+
 h1{
     font-size: 24px;
     margin-top: 0;
@@ -56,6 +56,18 @@ p{
     font-size: 28px;
     font-weight: bold;
     color: hsla(30, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+.dateDisplay{
+    font-weight: bold;
+    font-size: 18px;
+    color: hsla(250, 4%, 31%, 0.781);
+    margin-bottom: 25px;
+}
+.timeDisplay{
+    font-weight: lighter;
+    font-size: 18px;
+    color: hsla(250, 4%, 31%, 0.781);
     margin-bottom: 25px;
 }
 .humidityDisplay{
